@@ -4,7 +4,7 @@
 ///               Departamento de Computação e Tecnologia                   ///
 ///                  Disciplina DCT1106 -- Programação                      ///
 ///                  Projeto Sistema de Gestão Escolar                      ///
-///             Developed by @flgorgonio -- since Jan, 2021                 ///
+///             Developed by @flgorgonio -- since Mar, 2020                 ///
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
@@ -37,7 +37,7 @@ void tela_principal(void) {
     printf("///               Departamento de Computação e Tecnologia                   ///\n");
     printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
     printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
-    printf("///             Developed by @flgorgonio -- since Jan, 2021                 ///\n");
+    printf("///             Developed by @flgorgonio -- since Mar, 2020                 ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -64,7 +64,7 @@ void tela_sobre(void) {
     printf("///               Departamento de Computação e Tecnologia                   ///\n");
     printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
     printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
-    printf("///             Developed by @flgorgonio -- since Jan, 2021                 ///\n");
+    printf("///             Developed by @flgorgonio -- since Mar, 2020                 ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
@@ -90,7 +90,7 @@ void tela_equipe(void) {
     printf("///               Departamento de Computação e Tecnologia                   ///\n");
     printf("///                  Disciplina DCT1106 -- Programação                      ///\n");
     printf("///                  Projeto Sistema de Gestão Escolar                      ///\n");
-    printf("///             Developed by @flgorgonio -- since Jan, 2021                 ///\n");
+    printf("///             Developed by @flgorgonio -- since Mar, 2020                 ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
