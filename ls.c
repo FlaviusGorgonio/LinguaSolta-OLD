@@ -20,6 +20,7 @@ void tela_equipe(void);
 void tela_menu_aluno(void);
 void tela_cadastrar_aluno(void);
 void tela_pesquisar_aluno(void);
+void tela_alterar_aluno(void);
 
 /////
 // Programa principal
@@ -30,6 +31,7 @@ int main(void) {
     tela_menu_aluno();
     tela_cadastrar_aluno();
     tela_pesquisar_aluno();
+    tela_alterar_aluno();
     return 0;
 }
 
@@ -208,6 +210,34 @@ void tela_pesquisar_aluno(void) {
     printf("///                                                                         ///\n");
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
     printf("///            = = = = = = = = Pesquisar Aluno = = = = = = = =              ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Informe a matrícula (apenas números):                        ///\n");
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+    getchar();
+}
+
+
+void tela_alterar_aluno(void) {
+    system("clear||cls");
+    printf("\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            ===================================================          ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
+    printf("///            = = = =   Escola de Idiomas Língua Solta    = = = =          ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
+    printf("///            ===================================================          ///\n");
+    printf("///               Developed by @flgorgonio -- since Mar, 2020               ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
+    printf("///            = = = = = = = = Alterar Aluno = = = = = = = = =              ///\n");
     printf("///            = = = = = = = = = = = = = = = = = = = = = = = =              ///\n");
     printf("///                                                                         ///\n");
     printf("///            Informe a matrícula (apenas números):                        ///\n");
