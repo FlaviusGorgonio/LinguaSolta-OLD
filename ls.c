@@ -14,7 +14,7 @@
 
 /////
 // Assinatura das funções
-void tela_principal(void);
+void tela_menu_principal(void);
 void tela_sobre(void);
 void tela_equipe(void);
 void tela_menu_aluno(void);
@@ -26,7 +26,7 @@ void tela_excluir_aluno(void);
 /////
 // Programa principal
 int main(void) {
-    tela_principal();
+    tela_menu_principal();
     tela_sobre();
     tela_equipe();
     tela_menu_aluno();
@@ -41,7 +41,7 @@ int main(void) {
 /////
 // Funções
 
-void tela_principal(void) {
+void tela_menu_principal(void) {
     char op;
     system("clear||cls");
     printf("\n");
