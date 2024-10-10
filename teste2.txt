@@ -1,0 +1,4 @@
+Trocando para:
+
+git config --local user.name "Flavius Gorgônio"   
+git config --local user.email "flavius.gorgonio@ufrn.br"
